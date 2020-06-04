@@ -17,7 +17,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 header{
-    height:80vh;
 }
 header h1 {
     width: 20%;
@@ -65,33 +64,6 @@ header nav a{
     font-size: 8rem;
     color: #000;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #780090, 0 0 20px #0073e6, 0 0 25px #780090, 0 0 30px #0073e6, 0 0 35px #0073e6;
-}
-.header-name div{
-    font-size: 3rem;
-    height: 30px;
-    padding: 5px;
-    width: auto;
-    color: #0073e6;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #780090, 0 0 20px #0073e6, 0 0 25px #780090, 0 0 30px #0073e6, 0 0 35px #0073e6;
-}
-.header-hero{
-    height: 75vh;
-    background-image: url('https://media.giphy.com/media/l3q2vQ6rlZutXsYN2/giphy.gif');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 40px;
-    max-width: 100%;
-  }
-.hero-img-placeholder{
-    height: 400px;
-    width: 800px;
-    background-color: gray;
 }
 #projects{
     display: flex;
