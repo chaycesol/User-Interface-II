@@ -17,7 +17,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 header{
-    height:80vh;
 }
 header h1 {
     width: 20%;
@@ -56,88 +55,6 @@ header nav a{
     justify-content: space-evenly;
     align-items: center;
 }
-.header-name{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.header-name h2{
-    font-size: 8rem;
-    color: #000;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #780090, 0 0 20px #0073e6, 0 0 25px #780090, 0 0 30px #0073e6, 0 0 35px #0073e6;
-}
-.header-name div{
-    font-size: 3rem;
-    height: 30px;
-    padding: 5px;
-    width: auto;
-    color: #0073e6;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #780090, 0 0 20px #0073e6, 0 0 25px #780090, 0 0 30px #0073e6, 0 0 35px #0073e6;
-}
-.header-hero{
-    height: 75vh;
-    background-image: url('https://media.giphy.com/media/l3q2vQ6rlZutXsYN2/giphy.gif');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 40px;
-    max-width: 100%;
-  }
-.hero-img-placeholder{
-    height: 400px;
-    width: 800px;
-    background-color: gray;
-}
-#projects{
-    display: flex;
-    flex-direction: column;
-    align-items: flex start;
-    justify-content: center;
-    margin: 0 40px;
-}
-#projects h3{
-    color: #FFF;
-    background-color: #f01860;
-    font-size: 1.5rem;
-    padding: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-#projects p{
-    color: #FFF;
-    background-color: #300030;
-    font-size: 1.2rem;
-    padding: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-
-}
-.three-block img{
-    text-align: center
-}
-.three-block img:hover{
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
-    border: 2px solid #00f0f0;
-}
-#projects .three-block{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 40%;
-}
-#projects .three-block div{
-    width: 25%;
-    text-align: center;
-    margin: 5px;
-    padding: 10px;
-}
 footer{
     height: 15vh;
     display: flex;
@@ -167,6 +84,31 @@ footer{
     width: 100%;
     padding: 2px;
     margin-bottom: 5px;
+}
+.about-chayce h2{
+    color: #FFF;
+    background-color: #ff1860;
+    margin-top: 0;
+    font-size: 3.5rem;
+}
+.bio-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.about-chayce img{
+    border-radius: 50%;
+    width: 750px;
+    height: auto;
+}
+.about-chayce p{
+    background-color: #780090;
+    color: #FFF;
+    width: 60%;
+    border-radius: 5px;
+    padding: 10px;
 }
 footer h2{
     padding: 10px;
